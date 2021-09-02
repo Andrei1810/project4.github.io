@@ -68,14 +68,14 @@ body{
 }
 .container{
 	border-radius:15px;
-	width: 400px;
-	height:60vh;
+	width: 300px;
+	height:80%;
 	padding-bottom:2%;
 	margin:0 auto;
-	margin-top:20vh;
+	margin-top:27vh;
 	background-image: url(bg-pattern-card.svg);
 	background-position:top;
-	background-size:100% 8rem;
+	background-size:100% 6rem;
 	background-repeat: no-repeat;
 	background-color:white;
 	font-family: 'Kumbh Sans', sans-serif;
@@ -86,17 +86,17 @@ body{
 	display:block;
 	position:relative;
 	margin:0 auto;
-	top:5rem;
+	top:3rem;
 	border-radius:50%;
 	width: 6rem;
 	height:6rem;
 }
 .text{
 	margin:0 auto;
-	margin-top:7.5rem;
-	margin-bottom:3.5rem;
-	padding-bottom:2rem;
-	border-bottom:1px solid hsl(0, 0%, 59%);
+	margin-top:4.5rem;
+	margin-bottom:1.5rem;
+	padding-bottom:1rem;
+	border-bottom:1px solid  hsl(227, 10%, 46%);
 }
 h1,h2{
 	text-align: center;

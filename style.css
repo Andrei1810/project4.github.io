@@ -1,0 +1,116 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*START*/
+body{
+	background-color:hsl(185, 75%, 39%);
+	font-size: 18px;
+}
+.background-1{
+	width:30%;
+	position:;
+	height:15rem;
+	z-index:-1;
+	position:absolute;
+	left: 0;
+	top: 0;
+}
+.background-2{
+	width:30%;
+	height:15rem;
+	z-index:-1;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+.container{
+	border-radius:15px;
+	width: 300px;
+	height:80%;
+	padding-bottom:2%;
+	margin:0 auto;
+	margin-top:27vh;
+	background-image: url(bg-pattern-card.svg);
+	background-position:top;
+	background-size:100% 6rem;
+	background-repeat: no-repeat;
+	background-color:white;
+	font-family: 'Kumbh Sans', sans-serif;
+	color: hsl(227, 10%, 46%);
+	font-size:0.8rem;
+}
+.profile{
+	display:block;
+	position:relative;
+	margin:0 auto;
+	top:3rem;
+	border-radius:50%;
+	width: 6rem;
+	height:6rem;
+}
+.text{
+	margin:0 auto;
+	margin-top:4.5rem;
+	margin-bottom:1.5rem;
+	padding-bottom:1rem;
+	border-bottom:1px solid  hsl(227, 10%, 46%);
+}
+h1,h2{
+	text-align: center;
+}
+section{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin:0 auto;
+	text-align: center;
+	width:80%;
+}
+p,h1{
+	line-height:1.6;
+}
+span{
+	color: hsl(229, 23%, 23%);
+	font-size:1rem;
+}
